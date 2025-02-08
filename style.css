@@ -1,0 +1,20 @@
+body{
+    background-color: aquamarine;
+}
+.container{
+   color: black;
+   width: 50%;
+height: 90%; }
+   .card{
+    margin: 30px;
+    padding: 30px;
+    background-color:greenyellow;
+   }
+   .form-controll{
+      border:2px solid white;
+      border-radius:12px;
+      padding:10px 15px;
+      box-shadow:inset 2px 2px 4px 3px gold;
+   }
+   
+   
