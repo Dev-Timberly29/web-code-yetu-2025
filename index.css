@@ -1,0 +1,15 @@
+.ss{border: 2px;
+    border-color: black;
+    border-style: solid;
+    padding: 20px;
+    margin: 20px;
+    width: 600px;
+    display: flex;
+}
+AA.{
+    height: 600px;
+    
+}
+.nav-item{
+    display: flex;
+}
