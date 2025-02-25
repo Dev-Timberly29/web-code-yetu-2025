@@ -5,6 +5,8 @@
     margin: 20px;
     width: 600px;
     display: flex;
+    border-radius: 3%;
+    background-color: antiquewhite;
 }
 AA.{
     height: 600px;
