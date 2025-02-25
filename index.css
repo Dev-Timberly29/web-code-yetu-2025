@@ -1,12 +1,4 @@
-.ss{border: 2px;
-    border-color: black;
-    border-style: solid;
-    padding: 20px;
-    margin: 20px;
-    width: 600px;
-    display: flex;
-    border-radius: 3%;
-    background-color: antiquewhite;
+
 }
 AA.{
     height: 600px;
@@ -14,4 +6,10 @@ AA.{
 }
 .nav-item{
     display: flex;
+}
+body{
+    background-image: url();
+    background-repeat: no-repeat;
+    background-position: center;
+    
 }
