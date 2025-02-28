@@ -1,15 +1,29 @@
 
+
+body{
+    background-image: url(pexels-pixabay-53435.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
-AA.{
-    height: 600px;
-    
+.nav-item {
+    float: left;
+    margin:none ;
+    padding: none;
+    font-display: flex;
 }
-.nav-item{
+ul{
     display: flex;
 }
-body{
-    background-image: url();
-    background-repeat: no-repeat;
-    background-position: center;
+
+a{
+    font-weight: bold;
+    color: green;
+    margin: none;
+}
+a:hover{
+    color: aliceblue;
+}
+li{
+    margin-left: 76px;
     
 }
