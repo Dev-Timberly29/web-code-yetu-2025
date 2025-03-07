@@ -13,6 +13,7 @@ body{
 }
 ul{
     display: flex;
+    list-style: none;
 }
 
 a{
