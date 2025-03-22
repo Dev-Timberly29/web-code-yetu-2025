@@ -3,9 +3,125 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Advanced HTML for CSS Teaching</title>
+    <link rel="stylesheet" href="<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+     integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">">
+    <link rel="stylesheet" href="march15.css">
 </head>
 <body>
+
+    <!-- Header Section -->
+    <header>
+        <div class="logo">MyBrand</div>
+        <nav>
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+               <!-- <li class="dropdown">
+                    <a href="#">More ▼</a>
+                    <ul class="dropdown-menu">
+                        <li><a href="#">Blog</a></li>
+                        <li><a href="#">Testimonials</a></li>
+                        <li><a href="#">Careers</a></li>
+                    </ul>
+                </li> -->
+            </ul>
+        </nav>
+        <button id="openModal">Login</button>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <h1>Welcome to MyBrand</h1>
+        <p>At MyBrand, we believe that technology should be both functional and beautiful. Our goal is to create immersive, seamless web experiences that captivate users, enhance engagement, and drive success. Whether you're looking to build a brand-new website, optimize your existing platform, or develop a unique digital solution, we have the skills, creativity, and expertise to make it happen.</p>
+        <button class="cta">Get Started</button>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="content">
+        <div>
+        <h2>About Us</h2>
+        <p>Founded by a team of passionate designers and developers, MyBrand is more than just a web development agency—we are innovators, problem-solvers, and creators. Our expertise spans across front-end and back-end technologies, allowing us to build intuitive, scalable, and high-performance websites that deliver real results. We stay ahead of industry trends and integrate the latest technologies to ensure our clients remain competitive in the ever-evolving digital landscape.</p>
+    </div> 
+    <div class="img-div">
+        <img src="Image20250301194133 - Copy.jpg" alt="">
+    </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="content grid-container">
+        <h2>our services</h2>
+    <div class="services-grid">
+        <div class="service">
+            <h3>Web Development</h3>
+            <p>Our web development services focus on building responsive, dynamic, and highly functional websites that not only look great but also perform flawlessly. Using modern frameworks and best coding practices, we create platforms that load quickly, offer smooth navigation, and provide an exceptional user experience across all devices. From simple landing pages to complex web applications, we ensure that your online presence is both powerful and effective.</p>
+        </div>
+        <div class="service">
+            <h3>UI/UX Design</h3>
+            <p>User experience is at the heart of everything we do. We design intuitive, visually appealing interfaces that enhance usability and accessibility. Our process involves researching user behavior, wireframing prototypes, and refining designs based on real-world testing. The result? Websites and applications that not only look amazing but also feel effortless to use, ensuring higher user satisfaction and engagement.</p>
+        </div>
+        <div class="service">
+            <h3>SEO Optimization</h3>
+            <p>What good is a website if no one can find it? Our SEO optimization strategies ensure your website ranks high on search engines, driving organic traffic and increasing visibility. We focus on keyword research, content optimization, mobile-friendliness, and technical SEO to improve your search engine ranking. With our help, your website won't just exist on the internet—it will thrive, attract visitors, and convert them into loyal customers.</p>
+        </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section id="portfolio" class="content">
+        <h2>Our Work</h2>
+        <div class="portfolio-grid">
+            <div class="portfolio-item">
+                <img  class="project1" src="Small business website design Sydney.jpeg" alt="Project 1">
+                <p>This project involved designing and developing an e-commerce platform from scratch. The client wanted a seamless shopping experience with an easy-to-navigate interface, smooth checkout process, and optimized performance. We implemented secure payment integrations, an advanced search functionality, and a mobile-friendly layout to ensure users can shop effortlessly from any device.</p>
+            </div>
+            <div class="portfolio-item">
+                <img src="pexels-olly-3756681.jpg" alt="Project 2">
+                <p>Our second project was a corporate website for a financial services firm. The challenge was to create a professional yet engaging platform that highlights the company's expertise while making complex financial information accessible to clients. We designed an interactive dashboard, integrated real-time data feeds, and implemented a content management system that allows easy updates.</p>
+            </div>
+            <div class="portfolio-item">
+                <img src="777.jpeg" alt="Project 3">
+                <p>For this project, we built a portfolio website for a creative agency. The goal was to showcase their work in a visually compelling way while maintaining fast loading speeds. Using CSS animations, parallax effects, and an intuitive navigation structure, we created an engaging digital experience that highlights the agency’s creativity and professionalism.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Form -->
+    <section id="contact" class="content">
+        <div class="formus">
+        <div class="us">
+        <h2>Contact Us</h2>
+        <p>We’d love to hear from you! Whether you have a project in mind, need a consultation, or just want to say hello, feel free to reach out. We believe in open communication and are always happy to discuss ideas, provide insights, and explore opportunities for collaboration. Fill out the form below, and we’ll get back to you as soon as possible.</p>
+        </div>
+        <div class="form">
+        <form>
+            <label for="name">Name:</label>
+            <input type="text"  id="name" name="name" placeholder="type your name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="4"></textarea>
+
+            <button type="submit">Send Message</button>
+        </form> 
+    </div>
+    </div>
+    </section>
     
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2025 MyBrand. All Rights Reserved. We are committed to delivering high-quality services and continuously improving our processes to meet the needs of our clients. Follow us on social media and stay updated with our latest projects, industry insights, and expert tips on web development and digital marketing.</p>
+        <nav>
+            <a href="#">Privacy Policy</a> | 
+            <a href="#">Terms of Service</a>
+        </nav>
+    </footer>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 </body>
 </html>
